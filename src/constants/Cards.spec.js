@@ -11,10 +11,12 @@ describe('A card game', () => {
     })
 
     it('should have faces from 7 to A', () => {
+        expect(Faces.two).to.equal('2');
+        expect(Faces.three).to.equal('3');
+        expect(Faces.four).to.equal('4');
+        expect(Faces.five).to.equal('5');
+        expect(Faces.six).to.equal('6');
         expect(Faces.seven).to.equal('7');
-        expect(Faces.eight).to.equal('8');
-        expect(Faces.nine).to.equal('9');
-        expect(Faces.ten).to.equal('10');
         expect(Faces.J).to.equal('J');
         expect(Faces.Q).to.equal('Q');
         expect(Faces.K).to.equal('K');
