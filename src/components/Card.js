@@ -29,6 +29,8 @@ export default class Card extends React.Component {
             case Faces.Q: return 12;
             case Faces.J: return 11;
             case Faces.K: return 13;
+            case Faces.A: return 1;
+
             default: return 0;
         }
     }
@@ -59,7 +61,7 @@ export default class Card extends React.Component {
             border: 2px solid ${color};
             background-image: url(${backgroundImage});
             background-size: 20em 30em;
-        `
+        `;
 
         return (
             <Button onClick={() => this.props.submitCard(card)}>

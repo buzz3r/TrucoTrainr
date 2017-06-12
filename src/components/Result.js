@@ -6,7 +6,7 @@ export default class Result extends React.Component {
         const resultMessage = this.props.result.get('correct') ?
             'Correct' : "Wrong";
 
-        const cardName = this.props.result.get('result') ? this.props.result.get('result').toString() : '';
+        const cardName = this.props.result.get('result') ? this.props.result.get('result').toString() : 'Draw';
 
         return (
             <div>

@@ -18,6 +18,7 @@ export default function(state = Map(), action = {}) {
 
             const pair = state.get('pair');
             const result = compare(pair.get(0), pair.get(1));
+            console.log(result, action.card);
             const correct = result === action.card;
 
             return state.merge(Map({

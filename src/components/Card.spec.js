@@ -16,7 +16,7 @@ describe('Card component',() => {
         );
         const button = scryRenderedDOMComponentsWithTag(component, 'button');
         expect(button).not.to.be.null;
-        expect(button[0].textContent).to.equal(card.toString());
+        expect(button[0].textContent).to.equal('QQ');
     });
 
 
