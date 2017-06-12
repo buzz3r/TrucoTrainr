@@ -1,8 +1,8 @@
-import {createCard, Suits, Faces } from '../constants/cards'
-
+import {createCard, Suits, Faces } from '../constants/Cards'
+import getRandomInt from './RandomHelper';
+import { List } from 'immutable';
 
 export function compare(firstCard, secondCard) {
-
     if(getRankingOfCard(firstCard) > getRankingOfCard(secondCard)) {
         return firstCard;
     } else if(getRankingOfCard(firstCard) < getRankingOfCard(secondCard)) {
@@ -12,6 +12,41 @@ export function compare(firstCard, secondCard) {
     return null;
 }
 
+export function getPair() {
+    return List.of(getRandomCard(), getRandomCard());
+}
+
+function getRandomCard() {
+    return createCard(getRandomSuit(), getRandomFace());
+}
+
+function getRandomSuit() {
+    const index = getRandomInt(0, 4);
+    switch(index) {
+        case 0: return Suits.spades;
+        case 1: return Suits.clubs;
+        case 2: return Suits.diamonds;
+        case 3: return Suits.hearts;
+        default: return null;
+    }
+}
+
+function getRandomFace() {
+    const index = getRandomInt(0, 10);
+    switch(index) {
+        case 0: return Faces.two;
+        case 1: return Faces.three;
+        case 2: return Faces.four;
+        case 3: return Faces.five;
+        case 4: return Faces.six;
+        case 5: return Faces.seven;
+        case 6: return Faces.Q;
+        case 7: return Faces.J;
+        case 8: return Faces.K;
+        case 9: return Faces.A;
+        default: return null;
+    }
+}
 
 function getRankingOfCard(card) {
     return Ranking[card.toString()];

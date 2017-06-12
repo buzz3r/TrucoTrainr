@@ -24,7 +24,7 @@ export function createCard(suit, face) {
         suit,
         face,
         toString: function() {
-            return suit + ' ' + face;
+            return face + ' of ' + suit;
         }
     }
 }

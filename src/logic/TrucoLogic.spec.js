@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import * as TrucoLogic from './TrucoLogic';
 import * as Cards from '../constants/Cards';
 
-describe('The TrucoService', () => {
+describe('The TrucoLogic', () => {
 
    it('returns the card with the highest ranking', () => {
        const fourOfClubs = Cards.createCard(Cards.Suits.clubs, Cards.Faces.four);
@@ -23,6 +23,12 @@ describe('The TrucoService', () => {
 
        result = TrucoLogic.compare(threeOfClubs, aceOfHearts);
        expect(result).to.equal(threeOfClubs);
+   });
+
+   it('returns a pair of two random cards', () => {
+      const pair = TrucoLogic.getPair();
+      expect(pair).not.to.be.null;
+      expect(pair.size).to.equal(2);
    });
 
 

@@ -57,4 +57,44 @@ describe('The compareReducer', () => {
 
         expect(compareReducer(undefined, action)).to.equal(expectedState);
     });
+
+    it('should handle SUBMIT_CARD by evalutation the submitted cards', () => {
+        const firstCard = createCard(Suits.hearts, Faces.Q);
+        const secondCard = createCard(Suits.spades, Faces.four);
+
+        const initialState = Map({
+            pair: List.of(firstCard, secondCard)
+        });
+
+        const action = {
+            type: 'SUBMIT_CARD',
+            card: firstCard
+        }
+
+        const expectedResult= Map({
+                correct: true,
+                result: firstCard
+        });
+        const result = compareReducer(initialState, action).get('result');
+        expect(result).to.equal(expectedResult);
+    });
+
+    it('should set a new pair once a card has been submitted', () => {
+        const firstCard = createCard(Suits.hearts, Faces.Q);
+        const secondCard = createCard(Suits.spades, Faces.four);
+        const pair = List.of(firstCard, secondCard);
+
+        const initialState = Map({
+            pair
+        });
+        const action = {
+            type: 'SUBMIT_CARD',
+            card: firstCard
+        }
+
+        const nextState = compareReducer(initialState, action);
+        const newPair = nextState.get('pair');
+
+        expect(pair).not.to.be.equal(newPair);
+    });
 });

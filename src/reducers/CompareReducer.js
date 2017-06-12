@@ -1,4 +1,5 @@
 import { Map } from 'immutable';
+import { compare, getPair } from '../logic/TrucoLogic';
 
 export default function(state = Map(), action = {}) {
 
@@ -12,7 +13,23 @@ export default function(state = Map(), action = {}) {
             return state.merge(Map({
                 result: action.result
             }));
-    }
 
-    return state;
+        case 'SUBMIT_CARD': {
+
+            const pair = state.get('pair');
+            const result = compare(pair.get(0), pair.get(1));
+            const correct = result === action.card;
+
+            return state.merge(Map({
+                pair: getPair(),
+                result: Map({
+                    correct,
+                    result
+                })
+            }));
+        }
+
+        default:
+            return state;
+    }
 }
