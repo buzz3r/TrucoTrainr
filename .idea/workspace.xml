@@ -2,25 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="654c5bd5-691c-43b9-b740-2d45e70ef01b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/ActionCreators.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Card.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Card.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CardCompare.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Result.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Result.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/logic/RandomHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_10.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_11.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_12.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_13.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/0_9.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_10.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_11.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_12.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_13.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/1_9.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_10.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_11.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_12.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_13.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/2_9.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_10.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_11.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_12.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_13.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/3_9.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/4_1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/4_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/faces/4_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Card.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.test.js" afterPath="$PROJECT_DIR$/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CardCompare.js" afterPath="$PROJECT_DIR$/src/components/CardCompare.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/constants/Cards.js" afterPath="$PROJECT_DIR$/src/constants/Cards.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/TrucoLogic.js" afterPath="$PROJECT_DIR$/src/logic/TrucoLogic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/TrucoLogic.spec.js" afterPath="$PROJECT_DIR$/src/logic/TrucoLogic.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/CompareReducer.js" afterPath="$PROJECT_DIR$/src/reducers/CompareReducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/CompareReducer.spec.js" afterPath="$PROJECT_DIR$/src/reducers/CompareReducer.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Card.js" afterPath="$PROJECT_DIR$/src/components/Card.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +77,8 @@
       <file leaf-file-name="CompareReducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/CompareReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -48,8 +89,8 @@
       <file leaf-file-name="CardCompare.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CardCompare.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="220">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -57,11 +98,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Card.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Card.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="363">
+              <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -69,11 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Card.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Card.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -115,18 +178,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Result.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Result.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -163,8 +214,9 @@
         <option value="$PROJECT_DIR$/src/components/CardCompare.js" />
         <option value="$PROJECT_DIR$/src/components/Result.js" />
         <option value="$PROJECT_DIR$/src/constants/Cards.js" />
-        <option value="$PROJECT_DIR$/src/components/Card.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/Card.css" />
+        <option value="$PROJECT_DIR$/src/components/Card.js" />
       </list>
     </option>
   </component>
@@ -182,7 +234,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="23" />
-    <option name="width" value="900" />
+    <option name="width" value="1072" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectView">
@@ -331,6 +383,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="truco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="truco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -343,12 +413,13 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/reducers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -772,12 +843,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496999697543</updated>
       <workItem from="1496999699120" duration="20308000" />
-      <workItem from="1497255942163" duration="5322000" />
+      <workItem from="1497255942163" duration="8353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25630000" />
+    <option name="totallyTimeSpent" value="28661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,7 +860,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="900" height="873" extended-state="0" />
+    <frame x="-1" y="23" width="1072" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -814,7 +885,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24475524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29029125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -907,16 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -967,16 +1028,6 @@
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/CompareReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1039,18 +1090,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CardCompare.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="220">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1060,8 +1101,70 @@
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/CompareReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/faces/0_1.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/faces/0_9.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/faces/0_5.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

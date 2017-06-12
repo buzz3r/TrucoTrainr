@@ -1,0 +1,15 @@
+
+.face {
+    position: absolute;
+    font-size: 3em;
+}
+
+.face.top {
+    top: 0.1em;
+    left: 0.25em;
+}
+
+.face.bottom {
+    bottom: 0.1em;
+    right: 0.2em;
+}
